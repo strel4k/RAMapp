@@ -1,5 +1,5 @@
 //
-//  RMCharacterViewController.swift
+//  RMCharactersViewController.swift
 //  RAM
 //
 //  Created by Alexander on 31.01.2023.
@@ -11,10 +11,8 @@ final class RMCharactersViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        title = "Characters"
     }
     
-
-
 }

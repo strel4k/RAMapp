@@ -1,5 +1,5 @@
 //
-//  RMLocationViewController.swift
+//  RMLocationsViewController.swift
 //  RAM
 //
 //  Created by Alexander on 31.01.2023.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-final class RMLocationViewController: UIViewController {
+final class RMLocationsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        title = "Locations"
     }
     
 
