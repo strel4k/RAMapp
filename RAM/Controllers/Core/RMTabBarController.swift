@@ -37,7 +37,7 @@ class RMTabBarController: UITabBarController {
                                        image: UIImage(systemName: "globe"),
                                        tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "Episodes",
-                                       image: UIImage(systemName: "tv"),
+                                       image: UIImage(systemName: "sparkles.tv"),
                                        tag: 3)
         nav4.tabBarItem = UITabBarItem(title: "Settings",
                                        image: UIImage(systemName: "gear"),
