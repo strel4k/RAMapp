@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381D264929ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D264829ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift */; };
 		387337E9298945D200767D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387337E8298945D200767D4D /* AppDelegate.swift */; };
 		387337EB298945D200767D4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387337EA298945D200767D4D /* SceneDelegate.swift */; };
 		387337ED298945D200767D4D /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387337EC298945D200767D4D /* RMTabBarController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		381D264829ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
 		387337E5298945D200767D4D /* RAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387337E8298945D200767D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387337EA298945D200767D4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				3873382F2997C95B00767D4D /* RMCharacterListView.swift */,
 				38733833299D28ED00767D4D /* RMCharacterCollectionViewCell.swift */,
 				3873383A29A39B0400767D4D /* RMCharacterDetailView.swift */,
+				381D264829ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				38733822298AAB7500767D4D /* RMCharacterStatus.swift in Sources */,
 				38733824298AABCA00767D4D /* RMCharacterGender.swift in Sources */,
 				3873383929A39A2400767D4D /* RMCharacterDetailViewController.swift in Sources */,
+				381D264929ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift in Sources */,
 				3873381029894EC800767D4D /* RMLocationsViewController.swift in Sources */,
 				3873380B29894E0700767D4D /* RMEpisode.swift in Sources */,
 				387337ED298945D200767D4D /* RMTabBarController.swift in Sources */,
