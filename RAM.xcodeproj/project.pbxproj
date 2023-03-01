@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		381D264929ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D264829ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift */; };
+		381D264B29AF531500776B4D /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D264A29AF531500776B4D /* RMImageLoader.swift */; };
 		387337E9298945D200767D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387337E8298945D200767D4D /* AppDelegate.swift */; };
 		387337EB298945D200767D4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387337EA298945D200767D4D /* SceneDelegate.swift */; };
 		387337ED298945D200767D4D /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387337EC298945D200767D4D /* RMTabBarController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		381D264829ABCF5E00776B4D /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		381D264A29AF531500776B4D /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 		387337E5298945D200767D4D /* RAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387337E8298945D200767D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387337EA298945D200767D4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		3873380129894C4800767D4D /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				381D264A29AF531500776B4D /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				3873381C298AA88E00767D4D /* RMOrigin.swift in Sources */,
 				3873383D29A39B2500767D4D /* RMCharacterDetailViewViewModel.swift in Sources */,
 				3873381E298AA97000767D4D /* RMSingleLocation.swift in Sources */,
+				381D264B29AF531500776B4D /* RMImageLoader.swift in Sources */,
 				387338302997C95B00767D4D /* RMCharacterListView.swift in Sources */,
 				38733828299166E000767D4D /* RMGetAllCharactersResponse.swift in Sources */,
 				38733822298AAB7500767D4D /* RMCharacterStatus.swift in Sources */,
