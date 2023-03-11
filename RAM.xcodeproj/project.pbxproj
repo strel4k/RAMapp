@@ -43,6 +43,7 @@
 		3873383929A39A2400767D4D /* RMCharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3873383829A39A2400767D4D /* RMCharacterDetailViewController.swift */; };
 		3873383B29A39B0400767D4D /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3873383A29A39B0400767D4D /* RMCharacterDetailView.swift */; };
 		3873383D29A39B2500767D4D /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3873383C29A39B2500767D4D /* RMCharacterDetailViewViewModel.swift */; };
+		3893F5C729BCC3BF0004133F /* RMEpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3893F5C629BCC3BF0004133F /* RMEpisodeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		3873383829A39A2400767D4D /* RMCharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewController.swift; sourceTree = "<group>"; };
 		3873383A29A39B0400767D4D /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
 		3873383C29A39B2500767D4D /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
+		3893F5C629BCC3BF0004133F /* RMEpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				3873383829A39A2400767D4D /* RMCharacterDetailViewController.swift */,
+				3893F5C629BCC3BF0004133F /* RMEpisodeDetailViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				3873381429894EF400767D4D /* RMSettingsViewController.swift in Sources */,
 				38733816298A809F00767D4D /* RMService.swift in Sources */,
 				3873380729894D0100767D4D /* RMLocation.swift in Sources */,
+				3893F5C729BCC3BF0004133F /* RMEpisodeDetailViewController.swift in Sources */,
 				3873381A298A81A500767D4D /* RMEndpoint.swift in Sources */,
 				3873380929894DFE00767D4D /* RMCharacter.swift in Sources */,
 				38733836299D2ABE00767D4D /* RMCharacterCollectionViewCellModel.swift in Sources */,
