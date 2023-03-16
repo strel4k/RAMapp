@@ -19,6 +19,16 @@ final class RMEpisodesViewController: UIViewController, RMEpisodeListViewDelegat
         view.backgroundColor = .systemBackground
         title = "Episodes"
         setupView()
+        addSearchButton()
+    }
+    
+    private func addSearchButton() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(didTapSearch))
+    }
+    
+    @objc
+    private func didTapSearch() {
+        
     }
     
     private func setupView() {
@@ -36,7 +46,6 @@ final class RMEpisodesViewController: UIViewController, RMEpisodeListViewDelegat
     
     func rmEpisodeListView(_ characterListView: RMEpisodeListView, didSelectEpisode episode: RMEpisode) {
         //        Open detail controller for that episode
-        let viewModel = RMEpisodeDetailViewViewModel(endpointUrl: URL(string: episode.url))
         let detailVC = RMEpisodeDetailViewController(url: URL(string: episode.url))
         detailVC.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(detailVC, animated: true)
