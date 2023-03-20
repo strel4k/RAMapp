@@ -37,6 +37,4 @@ final class RMSearchViewController: UIViewController {
         view.backgroundColor = .systemMint
 
     }
-
-
 }
