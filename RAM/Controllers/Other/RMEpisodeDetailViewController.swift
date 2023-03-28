@@ -16,6 +16,7 @@ final class RMEpisodeDetailViewController: UIViewController, RMEpisodeDetailView
     private let detailView = RMEpisodeDetailView()
     
     // MARK: - Init
+    
     init(url: URL?) {
         self.viewModel = RMEpisodeDetailViewViewModel(endpointUrl: url)
         
