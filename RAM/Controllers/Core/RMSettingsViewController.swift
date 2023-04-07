@@ -5,6 +5,7 @@
 //  Created by Alexander on 31.01.2023.
 //
 
+import StoreKit
 import SafariServices
 import UIKit
 import SwiftUI
@@ -53,15 +54,16 @@ final class RMSettingsViewController: UIViewController {
         guard Thread.current.isMainThread else {
             return
         }
-
+        
         if let url = option.targetUrl {
             // Open website
             let vc = SFSafariViewController(url: url)
             present(vc, animated: true)
             
         } else if option == .rateApp {
-            
+            if let windowScene = view.window?.windowScene {
+                SKStoreReviewController.requestReview(in: windowScene)
+            }
         }
     }
-    
 }
