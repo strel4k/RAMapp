@@ -90,8 +90,7 @@ extension RMLocationView: UITableViewDelegate {
         guard let locationModel = viewModel?.location(at: indexPath.row) else {
             return
         }
-        delegate?.rmLocationView(self,
-                                 didSelect: locationModel)
+        delegate?.rmLocationView(self, didSelect: locationModel)
     }
 }
 
