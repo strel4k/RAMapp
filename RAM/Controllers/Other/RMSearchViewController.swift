@@ -19,7 +19,7 @@ final class RMSearchViewController: UIViewController {
     struct Config {
         enum `Type` {
             case character // name | status | gender
-            case episode // allow name
+            case episode // name
             case location // name | type
             
             var title: String {
