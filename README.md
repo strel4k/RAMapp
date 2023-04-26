@@ -3,4 +3,4 @@
 Full featured iOS app showcasing Rick and Morty API.
 
 - Written in Swift
-- Unit Tested
+
