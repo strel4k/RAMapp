@@ -13,7 +13,7 @@ protocol RMCharacterListViewViewModelDelegate: AnyObject {
     func didSelectCharacter(_ character: RMCharacter)
 }
 
-/// View Model to handle character list view logic
+/// ViewModel to handle character list view logic
 final class RMCharacterListViewViewModel: NSObject {
     
     public weak var delegate: RMCharacterListViewViewModelDelegate?
@@ -88,8 +88,8 @@ final class RMCharacterListViewViewModel: NSObject {
                 let indexPathToAdd: [IndexPath] = Array(startingIndex..<(startingIndex+newCount)).compactMap({
                     return IndexPath(row: $0, section: 0)
                 })
-                
                 strongSelf.characters.append(contentsOf: moreResults)
+                
                 DispatchQueue.main.async {
                     strongSelf.delegate?.didLoadMoreCharacters(with: indexPathToAdd)
                     strongSelf.isLoadingMoreCharacters = false
